@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/**
+ * --- control.css ---
+ * 	A test snippit of QSS compliant CSS that won't cause errors in either of
+ * 	Qt or CSS3 and should pass through the loader unmodified.
+ *
+ * License: MIT
+ * Copyright (c) Ruby Allison Rose
+ * https://github.com/m3tior/qss-translation-loader
+ */
+
+.nothingburger{
+	color: blue;
+	background: #ff0000;
+}

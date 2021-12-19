@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/**
+ * --- all-gradients.css ---
+ * 	A test snippit of QSS compliant CSS demonstraiting varying types of gradient
+ *	translation in conjunction.
+ *
+ * License: MIT
+ * Copyright (c) Ruby Allison Rose
+ * https://github.com/m3tior/qss-translation-loader
+ */
+
+#linear{
+	/* //%expect% */
+	background: url("thing");
+	/* //%toBe% */
+	/* background: gradialgradient(x: 1, y:1, x2:0, y2:0, red); */
+	/* //%end% */
+}
+
+.radial{
+
+}
+
+.conical{
+
+}

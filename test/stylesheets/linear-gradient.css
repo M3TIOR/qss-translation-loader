@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/**
+ * --- linear-gradient.css ---
+ * 	A test for different variations of the linear-gradient syntax translation.
+ *
+ * License: MIT
+ * Copyright (c) Ruby Allison Rose
+ * https://github.com/m3tior/qss-translation-loader
+ */
+
+.linear-control{
+	background: red, blue, yellow, black;
+}

@@ -1,0 +1,42 @@
+{
+	"name": "qss-translation-loader",
+	"version": "0.0.1",
+	"description": "A webpack loader to translate CSS3 syntax to Qt's QSS native syntax.",
+	"main": "webpack.config.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/m3tior/qss-translation-loader.git"
+	},
+	"keywords": [
+		"QSS",
+		"CSS3",
+		"Syntax",
+		"Language",
+		"Translation",
+		"Qt",
+		"Qt-5",
+		"Qt-4"
+	],
+	"author": "Ruby Allison Rose (aka: M3TIOR)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/m3tior/qss-translation-loader/issues"
+	},
+	"homepage": "https://github.com/m3tior/qss-translation-loader#readme",
+	"devDependencies": {
+		"argparse": "^1.0.0",
+		"css-loader": "^2.1.1",
+		"extract-loader": "^3.1.0",
+		"inert-entry-webpack-plugin": "^4.0.2",
+		"webpack": "^4.29.6",
+		"jest": "^24.7.1",
+		"babel-jest": "^24.7.1",
+		"babel-preset-env": "^1.7.0",
+		"memory-fs": "^0.4.1",
+		"css": "^2.2.4"
+	},
+	"dependencies": {}
+}
